@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MD5 Hash generator</title>
+    <script type='text/javascript' src="http://alemanparaviajes.esy.es/js/crypto/rollups/md5.js"></script>
+    <script type='text/javascript' src="http://alemanparaviajes.esy.es/js/crypto/components/enc-base64.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" </head>
+    <script type="text/javascript" src="../js/md5Edit.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        //var hash = CryptoJS.MD5("Message");
+        //alert(hash.toString(CryptoJS.enc.Base64));
+    </script>
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1>MD5 Hash generator demo</h1>
+        <form id="form-container">
+        <div class="form-group">
+        <label for="exampleInputEmail1">Type something:</label> 
+        <input type="text" class="user-input form-control" id="hash-input" placeholder="your text here">
+        
+    </div>
+    <div class="form-group">
+        <input type="text" class="hash" id="hash-output" placeholder="hash">
+    </div>
+    </form> 
+
+</body>
+
+</html>
