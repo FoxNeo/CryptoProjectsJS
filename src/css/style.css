@@ -12,3 +12,10 @@ h1{
 #copy-button{
     margin-top: 20px;
 }
+#sha3-hash-output {
+    margin-left: 350px;
+    margin-right: 350px;
+    width: 1130px;
+    height: 30px;
+    margin-top: 100px;
+}
