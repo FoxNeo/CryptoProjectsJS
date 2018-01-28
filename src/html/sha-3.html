@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SHA-3 Hash generator</title>
-    <script type='text/javascript' src="http://alemanparaviajes.esy.es/js/crypto/rollups/sha3.js"></script>
+    <script type='text/javascript' src="https://foxneo.github.io/CryptoProjectsJS/src/js/rollups/sha3.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
         crossorigin="anonymous"></script>
@@ -17,25 +17,54 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css" </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script type="text/javascript" src="../js/sha-3Edit.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="container text-center">
-        <h1>SHA-3 Hash generator demo</h1>
-        <form id="form-container">
-        <div class="form-group">
-        <label for="exampleInputEmail1">Type something:</label> 
-        <input type="text" class="user-input form-control" id="hash-input" placeholder="your text here">
-        
+        <div class="panel panel-primary panel-content">
+            <div class="panel-heading">
+                <h1>SHA-3 Hash generator demo</h1>
+            </div>
+            <div class="panel-body">
+                <form id="form-container">
+                    <div class="form-group">
+                        <label for="hash-input">Type something:</label>
+                        <input type="text" class="user-input form-control" id="hash-input" placeholder="your text here">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="hash-output">Hash:</label>
+                        <input type="text" class="hash" id="sha3-hash-output" placeholder="result">
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-   
-    </form> 
+
+    <!--
+    <div class="container text-center">
+        <div class="panel panel-primary panel-content">
+            <div class="panel-heading">
+                <h1>SHA-3 Hash generator demo</h1>
+            </div>
+            <div class="panel-body">
+                <form id="form-container">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Type something:</label>
+                        <input type="text" class="user-input form-control" id="hash-input" placeholder="your text here">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="hash" id="sha3-hash-output" placeholder="result">
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <input type="text" class="hash" id="sha3-hash-output" placeholder="hash">
-    </div>
+-->
 </body>
 
 </html>
