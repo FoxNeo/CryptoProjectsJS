@@ -15,3 +15,4 @@ This is for educational purposes only
 ## SHA-3 Hash generator demo ##
 
 * <a href="http://foxneo.github.io//CryptoProjectsJS/src/html/sha-3.html" target="_blank">live demo</a>
+
