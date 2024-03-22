@@ -1,5 +1,5 @@
 # CryptoProjectsJS
-This is for educational purposes only
+This is for educational purposes only. Hashes generator in frontend.
 
 ### Developer ###
 * Miguel Caceres
