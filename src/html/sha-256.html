@@ -15,7 +15,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="../js/sha-256Edit.js"></script>
+    <script src="../js/sha-256Edit.js" type="module"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114203642-1"></script>
     <script>
@@ -44,6 +44,7 @@
                     <div class="form-group">
                         <label for="hash-output">Hash:</label>
                         <input type="text" class="hash" id="hash-output" placeholder="result">
+                        <button id="copyBtn"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="copy to clipboard" type="button" class="btn btn-light">copy</button>
                     </div>
                 </form>
             </div>

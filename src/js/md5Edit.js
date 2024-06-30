@@ -1,3 +1,7 @@
+import {
+    copyToClipboard
+} from './clipboard.js'
+
 $(document).ready(function () {
 
     $('.user-input').on('keyup', function () {
@@ -12,4 +16,5 @@ $(document).ready(function () {
         }
     });
 
+   copyToClipboard;
 });
